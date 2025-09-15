@@ -79,6 +79,9 @@ body {
 .hero-left {
   order: 1;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hero-right {
   order: 2;
@@ -465,15 +468,18 @@ iframe {
 /* --- АДАПТИВНОСТЬ --- */
 @media (min-width: 768px) {
   .hero-section {
-    flex-direction: row;
-    align-items: flex-start;
-    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .hero-left, .hero-right {
-    flex: 1;
+    width: 100%;
   }
   .hero-left {
     order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .hero-right {
     order: 2;
