@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const statusMessage = document.getElementById('status-message');
             statusMessage.innerText = "Отправка данных...";
             statusMessage.style.color = "#555";
-            const message = `🎉 Новая заявка на корпоратив:\n\n👤 Имя: ${name}\n✅ Участие: ${attendance}\n👥 Гостей: ${guests}\n💬 Комментарий: ${comment}`;
+            const message = `🎉 Новая заявка на корпоратив:\n\n👤 Имя: ${name}\n✅ Участие: ${attendance}\n👥 💬 Комментарий: ${comment}`;
             const telegramBotToken = "8256984609:AAGlRQSJNGQTiWFpT1Zmvt2OjSPdrlyHGHA";
             const chatId = "-1003016563024";
             try {
@@ -141,4 +141,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
 
